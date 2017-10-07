@@ -6,6 +6,7 @@ Run:
 ```perl
  $perl eggtimer.pl
 ```
+![imagine](img/img.jpg)
 
 FILES:
 
@@ -15,4 +16,6 @@ FILES:
     4.README.md
     5.timesup.png
     6.timesup.sh
-    
+    7.date_time
+        1.date_time.pl
+        2.README.md
