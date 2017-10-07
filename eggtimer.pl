@@ -79,6 +79,14 @@ my $threequarterb = $frame->Button(
 		update_mode(); }
 );
 $threequarterb->pack(-side=>'left');
+
+my $gitpush_b = $frame->Button(
+	-text => "GitPush",
+	-command => sub {
+		system("./gitpush.sh"); }
+);
+$gitpush_b->pack(-side=>'left');
+
 #my $work = $frame->Button(
 #	-text => "WORK",
 #	-command => sub { 
